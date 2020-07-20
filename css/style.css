@@ -2,6 +2,12 @@
 .header_top{
   height: 70px;
   background-color: red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  line-height: 70px;
 }
 
 .logo{
@@ -24,6 +30,7 @@
 /* JUMBOTRON */
 
 .bg_jumbo{
+  margin-top: 70px;
   max-width: 100%;
   background-color: blue;
 }
@@ -40,9 +47,7 @@
 
 /* SEZIONE LOGHI */
 
-.bg_loghi{
-  background-color: lightgrey;
-}
+
 
 .loghi{
   background-color: red;
@@ -51,3 +56,34 @@
 /* //SEZIONE LOGHI */
 
 /* SEZIONE DEPLOY */
+
+.list_deploy li{
+  list-style: none;
+}
+
+.list_deploy {
+  width: 300px;
+  background-color: green;
+}
+
+.box_deploy {
+}
+
+#m_left {
+  margin-left: 90px;
+}
+
+/* //SEZIONE DEPLOY */
+
+/* SEZIONE DESIGNED */
+
+.bg_grey {
+  background-color: lightgrey;
+}
+
+.image_designed {
+  height: 300px;
+  width: 600px;
+  background-color: red;
+  margin: auto;
+}
