@@ -1,0 +1,19 @@
+.header_top{
+  height: 50px;
+  background-color: red;
+}
+
+.logo{
+  height: 50px;
+  background-color: blue;
+}
+
+.nav_link{
+  height: 50px;
+  background-color: blue;
+}
+
+.nav_login{
+  height: 50px;
+  background-color: blue;
+}
