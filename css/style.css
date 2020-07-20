@@ -62,7 +62,7 @@
 }
 
 .list_deploy {
-  width: 300px;
+  width: 200px;
   background-color: green;
 }
 
@@ -83,7 +83,6 @@
 
 .image_designed {
   height: 300px;
-  width: 600px;
   background-color: red;
   margin: auto;
 }
@@ -134,7 +133,68 @@
   border-bottom: 1px solid #fff;
 }
 
-span {
+.service span {
   margin-left: 20px;
-  margin-right: 50px;
 }
+
+.link_table {
+  margin-left: 100px;
+}
+
+/* //SEZIONE SERVICE */
+
+/* SEZIONE DEVELOPMENT TEAM */
+/* vedi sezione design */
+
+/* SEZIONE GET STARTED */
+
+
+footer{
+  background-color: #031C4E;
+  padding: 50px 0;
+}
+
+.logo_footer li {
+  display: inline-block;
+}
+
+.social_footer {
+  margin-left: -40px;
+}
+
+
+.social_footer li a {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+
+/* //////* RESPONSIVE */
+
+/* SMARTPHONE */
+
+@media screen and (max-width: 768px) {
+  #m_left {
+    margin: 0;
+  }
+  .service span {
+    margin-left: 20px;
+  }
+
+  .link_table {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .service span {
+    margin-left: 20px;
+  }
+
+  .link_table {
+    margin-left: 300px;
+  }
+}
+
+.link_table
