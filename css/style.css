@@ -1,5 +1,6 @@
+/* HEADER */
 .header_top{
-  height: 50px;
+  height: 70px;
   background-color: red;
 }
 
@@ -17,3 +18,36 @@
   height: 50px;
   background-color: blue;
 }
+
+/* HEADER */
+
+/* JUMBOTRON */
+
+.bg_jumbo{
+  max-width: 100%;
+  background-color: blue;
+}
+
+.form_jumbo{
+  float: right;
+  margin: 30px 0;
+  height: 300px;
+  width: 300px;
+  background-color: lightgrey;
+}
+
+/* //JUMBOTRON */
+
+/* SEZIONE LOGHI */
+
+.bg_loghi{
+  background-color: lightgrey;
+}
+
+.loghi{
+  background-color: red;
+}
+
+/* //SEZIONE LOGHI */
+
+/* SEZIONE DEPLOY */
