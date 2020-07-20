@@ -87,3 +87,54 @@
   background-color: red;
   margin: auto;
 }
+.social_list {
+  list-style: none;
+
+}
+
+.social_list li {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.social_list li a{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  line-height: 10px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  font-size: 15px;
+  margin-right: 5px;
+  color: #fff;
+
+}
+
+/* //SEZIONE DESIGNED */
+
+/* SEZIONE FEATURES */
+
+/* SEZIONE SERVICE */
+
+.text_white {
+  color: #fff;
+}
+
+.bg_blue{
+  background-color: blue;
+}
+
+.list_service li {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.service {
+  border-bottom: 1px solid #fff;
+}
+
+span {
+  margin-left: 20px;
+  margin-right: 50px;
+}
