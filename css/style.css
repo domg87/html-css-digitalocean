@@ -10,6 +10,14 @@ body {
   margin-bottom: 30px;
 }
 
+.m_left_30 {
+  margin-left: 30px;
+}
+
+.m_right_30 {
+  margin-right: 30px;
+}
+
 .text_white {
   color: #fff;
 }
@@ -22,6 +30,15 @@ body {
  h1 {
    font-size: 48px;
    color: #fff;
+ }
+
+ h4 {
+   font-weight: bold;
+   color: #061B4E;
+ }
+
+ .box_deploy p {
+   color: #5b6987;
  }
 
  .jumbo p {
@@ -104,6 +121,7 @@ body {
 /* JUMBOTRON */
 
 .jumbo{
+  max-width: 1170px;
   margin: auto;
   padding: 30px;
 }
@@ -148,11 +166,16 @@ form {
 
 #loghi {
   line-height: 3;
+  margin: auto;
+
 }
 
 .loghi_icon {
-  background-color: red;
+  max-height: 50px;
+  margin: 20px 0;
+  vertical-align: middle;
 }
+
 
 /* //SEZIONE LOGHI */
 
@@ -160,14 +183,20 @@ form {
 
 .list_deploy li{
   list-style: none;
+  margin: 10px 0;
+}
+.list_deploy a {
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .list_deploy {
-  width: 200px;
-  background-color: green;
+  border-left: 1px solid;
+  padding-left: 10px;
 }
 
 .box_deploy {
+  width: 200px;
 }
 
 #m_left {
@@ -179,7 +208,7 @@ form {
 /* SEZIONE DESIGNED */
 
 .bg_grey {
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 
 .image_designed {
@@ -283,6 +312,11 @@ footer{
   .link_table {
     margin-left: 200px;
   }
+
+  .list_deploy li {
+    max-width: 100px;
+  }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -292,6 +326,10 @@ footer{
 
   .link_table {
     margin-left: 300px;
+  }
+
+  .list_deploy li {
+    max-width: 100px;
   }
 }
 
