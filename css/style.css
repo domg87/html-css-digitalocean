@@ -207,14 +207,17 @@ form {
 
 /* SEZIONE DESIGNED */
 
+.wrapper_carousel {
+  padding: 30px;
+}
+
 .bg_grey {
   background-color: #F3F5F9;
 }
 
-.image_designed {
-  height: 300px;
-  background-color: red;
+#image_designed {
   margin: auto;
+  max-width: 60%;
 }
 .social_list {
   list-style: none;
@@ -247,8 +250,9 @@ form {
 /* SEZIONE SERVICE */
 
 
-.bg_blue{
-  background-color: blue;
+.bg_blue {
+  background: rgb(4,7,138);
+  background: linear-gradient(0deg, rgba(4,7,138,1) 0%, rgba(41,70,205,1) 100%);
 }
 
 .list_service li {
@@ -266,7 +270,10 @@ form {
 
 .link_table {
   margin-left: 100px;
+  font-size: 15px;
+  color: #00d7d2;
 }
+
 
 /* //SEZIONE SERVICE */
 
@@ -314,8 +321,21 @@ footer{
   }
 
   .list_deploy li {
-    max-width: 100px;
+    max-width: 50px;
   }
+
+  .list_service li {
+    display: inline-block;
+    margin: 1px 0;
+  }
+
+  .list_service {
+    padding-left: 0;
+  }
+  .service span {
+    margin-left: 5px;
+  }
+
 
 }
 
