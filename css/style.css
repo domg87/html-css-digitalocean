@@ -1,3 +1,16 @@
+/* VARIE */
+.m_top_30 {
+  margin-top: 30px;
+}
+
+.m_bottom_30 {
+  margin-bottom: 30px;
+}
+
+
+/* //VARIE */
+
+
 /* HEADER */
 .header_top{
   height: 70px;
@@ -29,10 +42,16 @@
 
 /* JUMBOTRON */
 
+.jumbo{
+  margin: auto;
+  padding: 30px;
+}
+
 .bg_jumbo{
   margin-top: 70px;
   max-width: 100%;
-  background-color: blue;
+  background: rgb(4,7,138);
+  background: linear-gradient(0deg, rgba(4,7,138,1) 0%, rgba(41,70,205,1) 100%);
 }
 
 .form_jumbo{
@@ -47,9 +66,11 @@
 
 /* SEZIONE LOGHI */
 
+#loghi {
+  line-height: 3;
+}
 
-
-.loghi{
+.loghi_icon {
   background-color: red;
 }
 
