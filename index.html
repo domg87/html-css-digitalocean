@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>digital ocean</title>
@@ -15,16 +16,46 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <div class="logo"></div>
+              <img class="logo" src="img/logo.png" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
               <nav class="visible-lg visible-md">
-                <div class="nav_link"></div>
+                <div class="nav_link">
+                  <ul>
+                    <li>
+                      <a href="#">Products  </a><i class="fas fa-angle-down"></i>
+                    </li>
+                    <li>
+                      <a href="#">Customers</a>
+                    </li>
+                    <li>
+                      <a href="#">Community </a><i class="fas fa-angle-down"></i>
+                    </li>
+                    <li>
+                      <a href="#">Pricing</a>
+                    </li>
+                  </ul>
+                </div>
               </nav>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right">
               <nav class="visible-lg visible-md">
-                <div class="nav_login"></div>
+                <div class="nav_login">
+                  <ul>
+                    <li>
+                      <a href="#">Docs</a>
+                    </li>
+                    <li>
+                      <a href="#">Support  </a><i class="fas fa-angle-down"></i>
+                    </li>
+                    <li>
+                      <a href="#">Login</a>
+                    </li>
+                    <li>
+                      <a class="btn_login"href="#">Sing Up</a>
+                    </li>
+                  </ul>
+                </div>
               </nav>
             </div>
             <div class="visible-xs-inline-block visible-sm text-right">
@@ -38,11 +69,31 @@
       <div class="container-fluid bg_jumbo">
         <div class="row jumbo">
           <div class="col-md-6 col-sm-6 col-xs-12">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether ypu're running one virtual machine or ten thousand.</p>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="form_jumbo"></div>
+            <div class="form_jumbo">
+              <form>
+                <div class="form-group text-center">
+                  <h2>Deploy your app in seconds.</h2>
+                  <h2 class="text_blue">Get started now.</h2>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Email</label>
+                  <input type="email" class="form-control" placeholder="email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Password</label>
+                  <input type="password" class="form-control" placeholder="password">
+                </div>
+                <button class="btn btn-primary btn_form" type="submit">Create your account</button>
+                <button class="btn btn-default btn_form" type="submit">Sing up with google</button>
+                <div class="form-group text-center">
+                  <span>By signing up you agree to the</span><a href="#"> Terms of Service</a>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
