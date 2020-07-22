@@ -38,7 +38,7 @@ body {
   position: relative;
   float: left;
   background-color: #fff;
-  width: 150px;
+  width: 250px;
   height: 50px;
   line-height: 3;
   text-align: center;
@@ -52,13 +52,29 @@ body {
   width: 0;
   height: 0;
   border: 15px solid;
+
 }
 
 .speech-bubble-right:after {
-  border-left-color: #fff;
+  color: #fff;
   left: 100%;
   top: 50%;
   margin-top: -15px;
+  width: 0;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(90deg);
+  cursor:pointer;
+}
+
+.speech-bubble p {
+  font-size: 15px;
+  line-height: 1;
+  padding: 10px;
+  text-align: left;
+  color: blue;
+
 }
 
 
@@ -416,6 +432,7 @@ form {
 footer{
   background-color: #031C4E;
   padding: 50px 0;
+  text-transform: capitalize;
 }
 footer h4 {
   color: #fff;
