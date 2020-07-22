@@ -315,7 +315,7 @@ form {
   background-color: #F3F5F9;
 }
 
-#image_designed {
+.item > img {
   margin: auto;
   max-width: 60%;
 }
