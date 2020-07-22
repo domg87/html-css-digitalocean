@@ -83,6 +83,7 @@ body {
 
 .nav_link a {
   vertical-align: bottom;
+  font-weight: bold;
   font-size: 12px;
   color: #031B4E;
 }
@@ -102,6 +103,7 @@ body {
 
 .nav_login a {
   vertical-align: bottom;
+  font-weight: bold;
   font-size: 12px;
   color: #031B4E;
 }
@@ -133,7 +135,7 @@ body {
 .jumbo{
   max-width: 1170px;
   margin: auto;
-  padding: 30px;
+  padding: 60px;
 }
 
 .bg_jumbo{
@@ -145,9 +147,13 @@ body {
 
 .form_jumbo{
   float: right;
-  height: 400px;
-  width: 450px;
+  max-height: 400px;
+  max-width: 450px;
   background-color: #F3F5F9;
+}
+
+.jumbo_text {
+  max-width: 80%;
 }
 
 .btn_form {
@@ -160,6 +166,11 @@ body {
 
 form {
   padding: 10px 15px;
+}
+
+.fa-google {
+  float: left;
+  margin: 5px 0;
 }
 
 /* form .text_blue:last-child {
@@ -399,6 +410,12 @@ footer h4 {
     margin-left: 5px;
   }
 
+  .form_jumbo{
+    float: none;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
 
 }
 
@@ -414,6 +431,27 @@ footer h4 {
   .list_deploy li {
     max-width: 100px;
   }
+
+  form {
+    padding: 10px 15px;
+  }
+
+  .form_jumbo{
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  form {
+    padding: 10px;
+  }
+
+  .form_jumbo{
+    max-height: 100%;
+    max-width: 100%;
+  }
+
 }
 
 .link_table
